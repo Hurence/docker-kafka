@@ -1,6 +1,12 @@
-[![Docker Pulls](https://img.shields.io/docker/pulls/wurstmeister/kafka.svg)](https://hub.docker.com/r/wurstmeister/kafka/)
-[![Docker Stars](https://img.shields.io/docker/stars/wurstmeister/kafka.svg)](https://hub.docker.com/r/wurstmeister/kafka/)
-[![](https://badge.imagelayers.io/wurstmeister/kafka:latest.svg)](https://imagelayers.io/?images=wurstmeister/kafka:latest)
+[![Docker Pulls](https://img.shields.io/docker/pulls/hurence
+- /kafka.svg)](https://hub.docker.com/r/hurence
+- /kafka/)
+[![Docker Stars](https://img.shields.io/docker/stars/hurence
+- /kafka.svg)](https://hub.docker.com/r/hurence
+- /kafka/)
+[![](https://badge.imagelayers.io/hurence
+- /kafka:latest.svg)](https://imagelayers.io/?images=hurence
+- /kafka:latest)
 
 kafka-docker
 ============
@@ -31,7 +37,8 @@ Destroy a cluster:
 
 ##Note
 
-The default ```docker-compose.yml``` should be seen as a starting point. By default each broker will get a new port number and broker id on restart. Depending on your use case this might not be desirable. If you need to use specific ports and broker ids, modify the docker-compose configuration accordingly, e.g. [docker-compose-single-broker.yml](https://github.com/wurstmeister/kafka-docker/blob/master/docker-compose-single-broker.yml):
+The default ```docker-compose.yml``` should be seen as a starting point. By default each broker will get a new port number and broker id on restart. Depending on your use case this might not be desirable. If you need to use specific ports and broker ids, modify the docker-compose configuration accordingly, e.g. [docker-compose-single-broker.yml](https://github.com/hurence
+- /kafka-docker/blob/master/docker-compose-single-broker.yml):
 
 - ```docker-compose -f docker-compose-single-broker.yml up```
 
@@ -72,7 +79,9 @@ Reference: http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-instance-metad
 
 ##Tutorial
 
-[http://wurstmeister.github.io/kafka-docker/](http://wurstmeister.github.io/kafka-docker/)
+[http://hurence
+- .github.io/kafka-docker/](http://hurence
+- .github.io/kafka-docker/)
 
 
 
