@@ -44,6 +44,9 @@ do
   fi
 done
 
+echo "offsets.topic.replication.factor=1" >> $KAFKA_HOME/config/server.properties
+
+
 if [[ -n "$CUSTOM_INIT_SCRIPT" ]] ; then
   eval $CUSTOM_INIT_SCRIPT
 fi
